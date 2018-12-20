@@ -218,7 +218,7 @@ def play_audio(x):
       #  my_thread_init = threading.Thread(target=pygameInit, args=(i,))
        # my_thread_init.start()
     pygame.init()
-    pygame.mixer.pre_init(44100, -16, 1, 512)
+    pygame.mixer.pre_init(48000, -16, 1, 512)
     pygame.mixer.set_num_channels(12)
     SOUND_MAPPING = {
       0: '/home/pi/Adafruit_Python_MPR121/examples/Fruity-Loops/test0.wav',
